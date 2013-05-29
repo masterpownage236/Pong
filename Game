@@ -1,0 +1,41 @@
+import java.awt.event.KeyListener;
+import java.awt.event.KeyEvent;
+import javax.swing.JPanel;
+import javax.swing.JOptionPane;
+import java.awt.Color;
+import java.awt.Graphics;
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+public class game extends pong_gui  {
+    
+    private int ball_x;
+    private int ball_y;
+    private double ball_x_speed;
+    private double ball_y_speed;
+    private int p1;
+    private int p2;
+    //private key_up = false;
+    //private key_down = false;
+    //public int ball_acceleration = false;
+    //public boolean new_game = true;
+    public Pong(int p1, int p2) { 
+    }
+    //key pressed and released
+     public void keyPressed () {
+
+        if (getKeyCode() == KeyEvent.Down)
+            key_up = true;
+        else    
+        { if (getKeyCode() == KeyEvent.Down)
+            key_down = true;
+    }
+}
+    public void keyReleased () {
+        if (getKeyCode() == KeyEvent.Down)
+           key_up = false;
+        else if (getKeyCode() == KeyEvent.Down)
+           key_down = false;
+       }
+    
+}
