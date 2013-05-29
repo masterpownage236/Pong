@@ -1,0 +1,46 @@
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+import java.awt.Color;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import javax.imageio.*;
+import java.awt.GridLayout;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+import java.awt.Dimension;
+import java.awt.Color;
+import java.awt.Image;
+import java.awt.*;
+import javax.swing.*;
+import javax.swing.border.*;
+import java.io.IOException;
+
+public class pong_gui extends JFrame implements ActionListener
+{
+    JButton button = new JButton();
+    private static void createAndShowGUI()
+    {
+        JFrame frame = new JFrame ("Pong by Bryce & Ben");
+        //frame.setDefaultCloseOperation(JFrameEXIT_ON_CLOSE);
+        
+        JLabel emptyLabel = new JLabel("Content");
+        emptyLabel.setPreferredSize(new Dimension(500, 600));
+        frame.getContentPane().add(emptyLabel, BorderLayout.CENTER);
+        
+        frame.pack();
+        frame.setVisible(true);
+    }
+    public static void main (String[] args){
+        javax.swing.SwingUtilities.invokeLater(new Runnable(){
+            public void run() {
+                createAndShowGUI();
+            }
+        });
+    }
+    
+    public void actionPerformed(ActionEvent e) 
+    {
+    }
+}
+    
