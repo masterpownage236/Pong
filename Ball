@@ -2,7 +2,7 @@ public class Ball{
   private int xPos,yPos;
 	public int dx = 5, dy = -5;
 	public Ball(){
-		setPos(250, 140);
+		setPos(, );
 	}
 	public void setPos(int x, int y){
 		this.xPos = x;
