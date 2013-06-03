@@ -18,7 +18,7 @@ public class Ball{
 		setPos(this.getX() + dx, this.getY() + dy);
 	}	
 	public void reset(){
-		setPos(250,140);
+		setPos(,);
 		dx = 5;
 		dy = -5;
 	}
