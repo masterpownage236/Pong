@@ -1,6 +1,6 @@
 public class PaddleLeft{
-	private int yPos = 0;
-	final int XPOS = 30;	
+	private int yPos = ;
+	final int XPOS = ;	
 	public PaddleLeft(){
 		setPos();
 	}
